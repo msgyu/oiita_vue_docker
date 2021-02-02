@@ -6,6 +6,7 @@
 
 require("./bootstrap");
 import router from "./router";
+import store from "./store";
 
 window.Vue = require("vue");
 
@@ -33,5 +34,6 @@ Vue.component(
 
 const app = new Vue({
     el: "#app",
-    router
+    router,
+    store
 });
