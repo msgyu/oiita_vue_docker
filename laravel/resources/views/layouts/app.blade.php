@@ -72,10 +72,7 @@
                 </div>
             </div>
         </nav>
-
-        <main>
-            <router-view></router-view>
-        </main>
+        <router-view></router-view>
     </div>
 </body>
 
