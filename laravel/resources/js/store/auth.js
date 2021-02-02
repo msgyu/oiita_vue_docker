@@ -8,6 +8,7 @@ const mutations = {
         state.user = user;
     },
     setToken(state, token) {
+        state.token = token;
         window.localStorage.setItem("token", token);
     }
 };
